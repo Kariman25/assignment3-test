@@ -1,0 +1,228 @@
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+}
+
+/* nav bar start style */
+.header .navbar {
+  padding: 8px 0;
+  background-color: aliceblue;
+}
+.header .navbar .logo {
+  width: 12%;
+  display: inline-block;
+}
+.header .navbar .logo img {
+  width: 100%;
+  vertical-align: middle;
+}
+.header .navbar .nav-list {
+  width: 80%;
+  display: inline-block;
+}
+.header .navbar .nav-list ul {
+  text-align: end;
+  list-style-type: none;
+}
+.header .navbar .nav-list ul li {
+  display: inline-block;
+  padding-inline: 10px;
+}
+.header .navbar .nav-list ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* nav bar end style */
+/* 
+home start */
+
+.header {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header .header-content {
+  padding-top: 150px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.header button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+}
+.solid-icon {
+  border-radius: 60%;
+  width: 30px;
+  height: 55px;
+  border: solid 2px aliceblue;
+
+  margin: auto;
+  margin-top: 5%;
+}
+.solid-icon .white-circle {
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 15%;
+  width: 20%;
+  height: 20%;
+  background-color: aliceblue;
+}
+
+/*home end */
+
+/* who we are section start */
+.who-we-are {
+  margin: 7% 0;
+  padding: 50px 0;
+}
+.who-we-are .who-we-are-img {
+  background-color: antiquewhite;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.who-we-are .who-we-are-img img {
+  width: 100%;
+}
+.who-we-are .who-we-are-content {
+  width: 45%;
+  display: inline-block;
+  padding-left: 8%;
+}
+.who-we-are .who-we-are-content ul li {
+  padding-block: 10px;
+  list-style-type: none;
+}
+.who-we-are .who-we-are-content ul li img {
+  width: 45px;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 1px rgb(209, 209, 209) solid;
+}
+
+/* who we are section end */
+
+/* our location start  */
+.our-location {
+  background-color: rgb(248, 248, 248);
+}
+.our-location .our-location-content {
+  vertical-align: middle;
+  width: 45%;
+  display: inline-block;
+}
+.our-location .our-location-img {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 8%;
+}
+.our-location .our-location-img img {
+  width: 100%;
+}
+/* our location end  */
+
+/*baking section start  */
+.clear-fix {
+  clear: both;
+}
+.baking-section {
+  padding: 6% 0;
+  text-align: center;
+}
+.baking-section .baking-items .item {
+  width: 30%;
+  float: left;
+}
+.baking-section .baking-items .item .item-img img {
+  width: 90%;
+  display: block;
+}
+/* <!-- /*baking section end  */
+
+/*contact info section start  */
+.contact-info {
+  background-color: rgb(248, 248, 248);
+  padding: 70px 0;
+}
+.contact-info .contact-info-content {
+  width: 45%;
+  float: left;
+}
+.contact-info .contact-map {
+  width: 40%;
+  float: right;
+}
+.contact-info .contact-map iframe {
+  width: 100%;
+}
+.contact-info .contact-info-content ul li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+.contact-info .contact-info-content ul li .icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(142, 119, 84);
+}
+.contact-info .contact-info-content ul li img {
+  vertical-align: middle;
+  width: 40px;
+}
+/*contact info section end  */
+/*footer start style  */
+.upper-footer {
+  background-color: rgb(64, 61, 56);
+  color: rgb(145, 145, 144);
+  padding: 70px 0;
+}
+
+.upper-footer .card {
+  width: 24%;
+  float: left;
+  padding-left: 8px;
+}
+.upper-footer .card ul li {
+  list-style-type: none;
+  padding-bottom: 10px;
+  border-bottom: solid 1px gray;
+}
+
+.upper-footer .contact-det {
+  padding: 0 12px;
+}
+
+.upper-footer .contact-det ul {
+  background-image: url(../images/contact-details-map.png);
+  background-size: cover;
+}
+.upper-footer .contact-det ul li img {
+  width: 35px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.lower-footer {
+  text-align: center;
+  background-color: rgb(57, 55, 50);
+  height: 22vh;
+}
+.lower-footer img {
+  width: 30%;
+  padding-top: 4%;
+}
+
+/*footer end style  */
