@@ -10,7 +10,12 @@ body {
 /* nav bar start style */
 .header .navbar {
   padding: 8px 0;
-  background-color: aliceblue;
+  background-color: aliceblue transparent;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 .header .navbar .logo {
   width: 12%;
@@ -34,12 +39,24 @@ body {
 }
 .header .navbar .nav-list ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 /* nav bar end style */
 /* 
 home start */
-
+.icon-scoller {
+  padding-top: 10px;
+  position: fixed;
+  top: 30%;
+  right: 0;
+  width: 33px;
+  height: 70px;
+  background-color: white;
+}
+.icon-scoller i {
+  margin-bottom: 20px;
+  width: 30px;
+}
 .header {
   background-image: url(../images/drew-coffman-1872.jpg);
   height: 100vh;
